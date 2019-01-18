@@ -1,0 +1,1000 @@
+  241  ls
+  242  man wget
+  243  wget -O scarlet.txt https://www.gutenberg.org/files/25344/25344-0.txt
+  244  vim answers.txt 
+  245  ls -l
+  246  vim answers.txt 
+  247  man ls
+  248  wc -l *
+  249  wc -l 
+  250  wc -l *
+  251  vim answers.txt 
+  252  man find
+  253  find -type "txt"
+  254  find -type f
+  255  find -type f -size 512
+  256  man find
+  257  find -type f -size 52k
+  258  find -type f -size 1k
+  259  find -type f -size 0k
+  260  man find
+  261  find . -type f -size 50k
+  262  find . -type f -size +50k
+  263  find . -type f -size +1k
+  264  find . -type f -size +50k
+  265  vim answers.txt 
+  266  man ls
+  267  ls -file-type const.txt 
+  268  man ls
+  269  ls --file-type const.txt 
+  270  file const.txt 
+  271  vim answers.txt 
+  272  md5 *
+  273  man MD5
+  274  MD5 *
+  275  MD5
+  276  man MD5
+  277  md5sum *
+  278  vim answers.txt 
+  279  grep -E "\bs *
+  280  grep -E "\bs" *
+  281  man sed
+  282  man awk
+  283  grep -E "\bs" const.txt 
+  284  grep -E "\bs" const.txt | wc -l
+  285  wc -l const.txt 
+  286  grep -E "\bs" const.txt | wc -l
+  287  grep -E "\b[cs]" const.txt | wc -l
+  288  grep -E "\b[cs]" const.txt
+  289  awk /s/ const.txt 
+  290  awk /\b[cs]/ const.txt 
+  291  grep -o '\b[csCS]\w*'
+  292  grep -o '\b[csCS]\w*' const.txt 
+  293  grep -o '\b[csCS]' const.txt 
+  294  grep -o '\b[csCS]\w*' const.txt 
+  295  grep -o '\b[csCS]\w*' const.txt | wc -l
+  296  vim answers.txt 
+  297  man dq
+  298  man df
+  299  df -k
+  300  vim answers.txt 
+  301  cd hurwitz/mattmiller899/GirusApp/
+  302  vim pipeline.py 
+  303  vim save_models.py 
+  304  vim pipeline.py 
+  305  ls
+  306  vim pipeline.py 
+  307  vim submit_pipeline.sh
+  308  vim submit_save_models.sh 
+  309  vim submit_pipeline.sh
+  310  vim pipeline.py 
+  311  vim submit_pipeline.sh
+  312  vim pipeline.py 
+  313  ls ../girus_work/FASTA_files/girus_unsplit/3000_contigs/
+  314  vim submit_pipeline.sh
+  315  vim pipeline.py 
+  316  vim submit_pipeline.sh
+  317  ls
+  318  ls ../girus_work/COMPILED_FEATURES_test/girus/3000_contigs/
+  319  ls ../girus_work/COMPILED_FEATURES_test/girus/3000_contigs/2/
+  320  rm -r ../girus_work/COMPILED_FEATURES_test/girus/*
+  321  ls ../girus_work/COMPILED_FEATURES_test/girus/300
+  322  vim submit_pipeline.sh
+  323  vim pipeline.py 
+  324  vim submit_pipeline.sh
+  325  ls models/
+  326  vim submit_pipeline.sh
+  327  vim run_pipeline.py
+  328  vim run_preprocess.sh 
+  329  vim run_pipeline.py
+  330  vim run_pipeline.sh
+  331  rm run_pipeline.py 
+  332  vim run_pipeline.sh
+  333  vim ../girus_work/deep_learning/run_keras_premade_hdf.
+  334  vim ../girus_work/deep_learning/run_keras_premade_hdf.sh 
+  335  vim run_pipeline.sh
+  336  vim submit_pipeline.sh 
+  337  vim pipeline.py 
+  338  vim run_pipeline.sh
+  339  vim pipeline.py 
+  340  vim run_pipeline.sh
+  341  sh submit_pipeline.sh 
+  342  qs
+  343  vim err/1749067.head1.cm.cluster.ER 
+  344  vim pipeline.py 
+  345  source activate pyenv
+  346  pip install bio
+  347  pip install biopython
+  348  pip install Biopython
+  349  vim pipeline.py 
+  350  cd hurwitz/mattmiller899/GirusApp/
+  351  module load singularity
+  352  singularity run keras_gpu3.img 
+  353  cd hurwitz/mattmiller899/BE535/biosys-analytics/assignments/01-unix/
+  354  ls
+  355  cd files/
+  356  vim answers.txt 
+  357  grep -o '\b[csCS]\w*' const.txt | wc -l
+  358  grep -o '\b[Jj]udge\b' const.txt 
+  359  grep -o '\b[Jj]udge\b' * 
+  360  grep -o '\b[Jj]udge\b' * | wc -l
+  361  vim answers.txt 
+  362  grep -o '\bhuman\b' *
+  363  grep -l human *
+  364  vim answers.txt 
+  365  grep Article *
+  366  grep -o '\nArticle\b' *
+  367  grep -o '\nArticle\b'
+  368  grep -o '\nArticle' *
+  369  grep -o 'Article' *
+  370  awk '{print $1}' *
+  371  ls /rsgrps/bhurwitz/mattmiller899
+  372  ls /rsgrps/bhurwitz/
+  373  ls /rsgrps/bhurwitz/mattmiller899/
+  374  ls /rsgrps/bhurwitz/mattmiller899/GirusApp/
+  375  ls /rsgrps/bhurwitz/mattmiller899/GirusApp/out/
+  376  exit
+  377  ls /extra
+  378  ls /xdisk
+  379  ls /rsgrps
+  380  ls /rsgrps/bhurwitz/
+  381  ls /rsgrps/bhurwitz/mattmiller899/
+  382  ls /rsgrps/bhurwitz/mattmiller899/GirusApp/
+  383  exit
+  384  ls /rsgrps
+  385  ls /rsgrps/bhurwitz/
+  386  ls /rsgrps/bhurwitz/mattmiller899/
+  387  ls /rsgrps/bhurwitz/mattmiller899/GirusApp/
+  388  exit
+  389  ls /rsgrps/
+  390  ls /rsgrps/bhurwitz/
+  391  ls /rsgrps/bhurwitz/mattmiller899/
+  392  ls /rsgrps/bhurwitz/mattmiller899/GirusApp/
+  393  exit
+  394  ls /rsgrps/bhurwitz/mattmiller899/girus_work
+  395  exit
+  396  ls /rsgrps
+  397  exit
+  398  cd hurwitz/mattmiller899/GirusApp/
+  399  ls
+  400  vim run_p
+  401  vim run_pipeline.sh 
+  402  mv keras_gpu3.img keras_old.img
+  403  sh submit_pipeline.sh 
+  404  qs
+  405  vim err/1749152.head1.cm.cluster.ER 
+  406  vim pipeline.py 
+  407  vim submit_pipeline.sh 
+  408  vim pipeline.py 
+  409  sh submit_pipeline.sh 
+  410  qs
+  411  vim err/1749159.head1.cm.cluster.ER 
+  412  vim pipeline.py 
+  413  sh submit_pipeline.sh 
+  414  qs
+  415  vim err/1749163.head1.cm.cluster.ER 
+  416  makedirs ../girus_work/COMPILED_FEATURES_test/girus/3000/2
+  417  mkdir -p ../girus_work/COMPILED_FEATURES_test/girus/3000/2
+  418  ls ../girus_work/COMPILED_FEATURES_test/girus/3000/2
+  419  sh submit_pipeline.sh 
+  420  qs
+  421  vim err/1749165.head1.cm.cluster.ER 
+  422  mkdir ../girus_work/COMPILED_FEATURES_test/girus/3000/2/log
+  423  sh submit_pipeline.sh 
+  424  vim err/1749168.head1.cm.cluster.ER 
+  425  vim pipeline.py 
+  426  ls ../girus_work/COMPILED_FEATURES_test/girus/3000/2/
+  427  vim err/1749168.head1.cm.cluster.ER 
+  428  ls /rsgrps/bhurwitz/mattmiller899/girus_work/COMPILED_FEATURES_test/girus/3000/2/log
+  429  rm /rsgrps/bhurwitz/mattmiller899/girus_work/COMPILED_FEATURES_test/girus/3000/2/log
+  430  rmdir /rsgrps/bhurwitz/mattmiller899/girus_work/COMPILED_FEATURES_test/girus/3000/2/log
+  431  touch /rsgrps/bhurwitz/mattmiller899/girus_work/COMPILED_FEATURES_test/girus/3000/2/log
+  432  sh submit_pipeline.sh 
+  433  qs
+  434  vim err/1749233.head1.cm.cluster.ER 
+  435  singularity shell keras_gpu.img 
+  436  module load singularity
+  437  singularity shell keras_gpu.img 
+  438  ls
+  439  singularity shell keras_gpu.img 
+  440  singularity shell keras_old.img 
+  441  singularity shell h5py_mpi.img 
+  442  singularity --version
+  443  module load singularity/2
+  444  singularity --version
+  445  singularity shell h5py_mpi.img 
+  446  vim run_pipeline.sh 
+  447  sh submit_pipeline.sh 
+  448  vim pipeline.py 
+  449  sh submit_pipeline.sh 
+  450  qs
+  451  vim err/17493
+  452  vim err/1749320.head1.cm.cluster.ER 
+  453  vim pipeline.py 
+  454  sh submit_pipeline.sh 
+  455  qs
+  456  vim err/1749322.head1.cm.cluster.ER 
+  457  vim pipeline.py 
+  458  sh submit_pipeline.sh 
+  459  qs
+  460  vim err/1749324.head1.cm.cluster.ER 
+  461  vim /unsupported/singularity/keras/ocelote_keras+tensorflow-1.4.1_gpu-cp35-cuda8-cudnn6.def
+  462  cd hurwitz/mattmiller899/girus_work/deep_learning/
+  463  vim err/1588010.head1.cm.cluster.ER 
+  464  vim out/1588010.head1.cm.cluster.OU 
+  465  vim run_keras_premade_hdf.sh 
+  466  vim keras_premade_hdf.py 
+  467  vim submit_keras_premade_hdf.sh 
+  468  sh submit_keras_premade_hdf.sh 
+  469  qs
+  470  qstat
+  471  qs
+  472  qdelall
+  473  vim submit_keras_premade_hdf
+  474  vim submit_keras_premade_hdf.sh 
+  475  sh submit_keras_premade_hdf.sh 
+  476  qs
+  477  vim keras_premade_hdf.py 
+  478  cd ../../GirusApp/
+  479  vim pipeline.py 
+  480  qs
+  481  cd ../girus_work/deep_learning/
+  482  vim err/1749613.head1.cm.cluster.ER 
+  483  vim run_keras_premade_hdf.sh 
+  484  sh submit_keras_premade_hdf.sh 
+  485  cd ../../GirusApp/
+  486  vim run_pipeline.sh 
+  487  sh submit_pipeline.sh 
+  488  qs
+  489  ls
+  490  qs
+  491  cp ./keras_gpu.img ../girus_work/deep_learning/keras_gpu_new.img
+  492  qs
+  493  vim err/1749621.head1.cm.cluster.ER 
+  494  vim pipeline.py 
+  495  sh submit_pipeline.sh 
+  496  qs
+  497  cd ../girus_work/deep_learning/
+  498  vim err/1749620.head1.cm.cluster.ER 
+  499  vim keras_premade_hdf.py 
+  500  sh submit_keras_premade_hdf.sh 
+  501  qs
+  502  cd ../../GirusApp/
+  503  vim err/1749622.head1.cm.cluster.ER 
+  504  module load singularity
+  505  singularity run keras_gpu.img 
+  506  qs
+  507  cd ../girus_work/deep_learning/
+  508  vim err/1749658.head1.cm.cluster.ER 
+  509  vim out/1749658.head1.cm.cluster.OU 
+  510  cd hurwitz/mattmiller899/BE535/biosys-analytics/assignments/01-unix/
+  511  cd files/
+  512  vim answers.txt 
+  513  vim ../README.md 
+  514  qs
+  515  cd hurwitz/mattmiller899/BE535/biosys-analytics/assignments/01-unix/
+  516  vim README.md 
+  517  cd files/
+  518  grep -o '$Article\b[0123456789]' *
+  519  grep -o 'Article\b[0123456789]' *
+  520  grep -o 'Article' *
+  521  vim answers.txt 
+  522  grep -o '\$Article'
+  523  grep -o '\$Article' *
+  524  grep -o 'Article' *
+  525  grep -o '^Article' *
+  526  grep -o '^Article\b[0123456789]' *
+  527  grep -o '^Article\b' *
+  528  grep -o '^Article\b[123]' *
+  529  grep -o '^Article\b1' *
+  530  grep -o '^Article 1' *
+  531  grep -o '^Article [0123456789]' *
+  532  grep -o '^Article [0123456789]*' *
+  533  grep -O '^Article [0123456789]*' *
+  534  grep -o '^Article [0123456789]*' *
+  535  grep -o '^Article [0123456789]' *
+  536  grep -E '^Article [0123456789]' *
+  537  grep -E '^Article [0123456789]*' *
+  538  vim const.txt 
+  539  grep -E '^Article [0123456789]+' * vi
+  540  vim answers.txt 
+  541  grep -o '^\n$' *
+  542  grep -o '^$' *
+  543  grep -o '^' *
+  544  grep -o '^*' *
+  545  grep -E '^*' *
+  546  grep -E '^\n$' *
+  547  grep -E '^\n' *
+  548  grep -E '^$' *
+  549  grep -E '^$' const.txt 
+  550  grep -E '^$' const.txt | wc -l
+  551  vim answers.txt 
+  552  cat ../README.md 
+  553  grep -o '[sS]carlet'
+  554  grep -o '[sS]carlet' scarlet.txt 
+  555  grep -o '[sS]carlet' scarlet.txt | wc -l
+  556  vim answers.txt 
+  557  cat ../README.md 
+  558  vim answers.txt 
+  559  grep -o '\b[csCS]\w+' const.txt | wc -l
+  560  grep -o '\b[csCS]\w' const.txt | wc -l
+  561  vim answers.txt 
+  562  grep -o '\b[Jj]udge\b' * | wc -l
+  563  grep -o '\b[Jj]udge' * | wc -l
+  564  grep -o '\b[Jj]udge'
+  565  grep -o '\b[Jj]udge' *
+  566  grep -o '\b[Jj]udge\b' *
+  567  grep -o '\b[Jj]udge' *
+  568  vim answers.txt 
+  569  grep -o '[sS]carlet' scarlet.txt | wc -l
+  570  grep -o '[sS]carlet\b' scarlet.txt | wc -l
+  571  cat ../README.md 
+  572  head -15 *
+  573  cat ../README.md 
+  574  head -15 * > foo
+  575  cat foo
+  576  man head
+  577  head -15 -q * > foovim
+  578  cat foo
+  579  vim answers.txt 
+  580  cat ../README.md 
+  581  wc -l foo
+  582  vim answers.txt 
+  583  rm foo
+  584  vim answers.txt 
+  585  git pull upstream master
+  586  cd ../../..
+  587  ls
+  588  cd ..
+  589  git pull upstream master
+  590  cd biosys-analytics/assignments/01-unix/files/
+  591  ls
+  592  vim answers.txt 
+  593  cat ../README.md 
+  594  ls
+  595  vim ../README.md 
+  596  rm ../.README.md.swp 
+  597  vim ../README.md 
+  598  cd ../../../..
+  599  git pull upstream master
+  600  git add *
+  601  git commit -m 'test'
+  602  git pull upstream master
+  603  git push origin master
+  604  git push
+  605  git push upstream master
+  606  git remote -v
+  607  git -v
+  608  git remote -v
+  609  mkdir test
+  610  cd test
+  611  git clone https://github.com/hurwitzlab/biosys-analytics.git
+  612  git remote -v
+  613  rm *
+  614  rmdir biosys-analytics/
+  615  rm -r biosys-analytics/
+  616  y
+  617  ls
+  618  cd ../biosys-analytics/
+  619  cd ..
+  620  rmdir test/
+  621  git remote -v
+  622  mkdir test
+  623  git clone git@github.com:mattmiller899/biosys-analytics.git
+  624  cd test/
+  625  git clone git@github.com:mattmiller899/biosys-analytics.git
+  626  git remote -v
+  627  cd ..
+  628  cp biosys-analytics/assignments/01-unix/files/answers.txt ../answers.txt
+  629  ls ..
+  630  rm -r biosys-analytics/
+  631  rm -r test/
+  632  git clone git@github.com:mattmiller899/biosys-analytics.git
+  633  git remote add upstream https://github.com/hurwitzlab/biosys-analytics.git
+  634  git remote -v
+  635  git pull origin master
+  636  git pull upstream master
+  637  rm -r biosys-analytics/
+  638  ls -a
+  639  man ls
+  640  ls .git
+  641  ls -a
+  642  ls -a ~
+  643  git remote -v
+  644  git remote rm upstream
+  645  git remote -v
+  646  git clone git@github.com:mattmiller899/biosys-analytics.git
+  647  git remote -v
+  648  git remote add master git@github.com:mattmiller899/biosys-analytics.git
+  649  git remote -v
+  650  git remote rm master
+  651  git remote add master https://github.com/mattmiller899/biosys-analytics/tree/master.git
+  652  ls biosys-analytics/
+  653  git pull master
+  654  git pull origin master
+  655  git checkout 
+  656  git checkout biosys-analytics/
+  657  git checkout https://github.com/mattmiller899/biosys-analytics/tree/master.git
+  658  git checkout https://github.com/mattmiller899/biosys-analytics/tree/master
+  659  ls ..
+  660  uproc-dna
+  661  ls ~
+  662  ls ~/local/bin/
+  663  quit
+  664  exit
+  665  echo $PATH
+  666  env
+  667  exit
+  668  cd hurwitz/mattmiller899/GirusApp/
+  669  cp ./keras_gpu.img ../girus_work/deep_learning/keras_gpu_new.img
+  670  cd ../girus_work/deep_learning/
+  671  vim submit_keras_premade_hdf
+  672  vim submit_keras_premade_hdf.sh 
+  673  man wc
+  674  vim submit_keras_premade_hdf.sh 
+  675  vim run_keras_premade_hdf.sh 
+  676  vim submit_keras_premade_hdf.sh 
+  677  sh submit_keras_premade_hdf.sh 
+  678  man wc
+  679  qs
+  680  cd ../../GirusApp/
+  681  vim submit_pipeline.sh 
+  682  vim run_pipeline.sh 
+  683  man wc
+  684  wc submit_pipeline.sh 
+  685  man wc
+  686  qs
+  687  vim err/1749622.head1.cm.cluster.ER 
+  688  vim run_pipeline.sh 
+  689  module load singularity/2
+  690  singularity run keras_gpu.img 
+  691  vim run_pipeline.sh 
+  692  vim pipeline.py 
+  693  sh submit_pipeline.sh 
+  694  cd ../girus_work/deep_learning/
+  695  vim err/1750366.head1.cm.cluster.ER 
+  696  vim run_keras_premade_hdf.sh 
+  697  vim keras_premade_hdf.py 
+  698  vim run_keras_premade_hdf.sh 
+  699  vim err/1750366.head1.cm.cluster.ER 
+  700  vim DataGenerator.py 
+  701  sh submit_keras_premade_hdf.sh 
+  702  qs
+  703  cd ../../GirusApp/
+  704  vim err/1750371.head1.cm.cluster.ER 
+  705  uproc-dna
+  706  singularity shell keras_gpu.img 
+  707  vim pipeline.py 
+  708  singularity shell keras_gpu.img 
+  709  man
+  710  man find
+  711  w
+  712  top
+  713  ps
+  714  htop
+  715  qs
+  716  vim run_pipeline.sh 
+  717  man find
+  718  man man
+  719  man env
+  720  env
+  721  echo $PWD
+  722  man find
+  723  echo $USER
+  724  whoami
+  725  qs
+  726  cd ../girus_work/deep_learning/
+  727  vim err/1750376.head1.cm.cluster.ER 
+  728  vim submit_keras_premade_hdf.sh 
+  729  vim keras_output/premade/unsplit/v_3000_2_0_mpi_log_new 
+  730  vim submit_keras_premade_hdf.sh 
+  731  qs
+  732  cd ../../GirusApp/
+  733  vim pipeline.py 
+  734  cd ../BE535/
+  735  git remote
+  736  git remote -v
+  737  git remove master
+  738  git remote rm master
+  739  ls ..
+  740  rm -rf biosys-analytics/
+  741  git remote
+  742  git clone git@github.com:mattmiller899/biosys-analytics.git
+  743  git remote
+  744  git remote add origin git@github.com:mattmiller899/biosys-analytics.git
+  745  git remote add upstream https://github.com/hurwitzlab/biosys-analytics.git
+  746  git remote
+  747  git remote -v
+  748  git pull origin master
+  749  echo $pullom
+  750  echo pullom
+  751  vim ~/.bashrc
+  752  ls biosys-analytics/
+  753  cd biosys-analytics/
+  754  touch test2.txt
+  755  git add test2.txt 
+  756  git commit -m 'test'
+  757  git pull upstream master
+  758  git pull upstream
+  759  git pull upstream https://github.com/hurwitzlab/biosys-analytics.git
+  760  git pull upstream master
+  761  git remote -v
+  762  cd ..
+  763  git remote -v
+  764  git pull upstream master
+  765  cd biosys-analytics/
+  766  git remote -v
+  767  git remote add upstream https://github.com/hurwitzlab/biosys-analytics.git
+  768  git remote -v
+  769  git pull upstream master
+  770  git pull origin master
+  771  git push origin master
+  772  cd ~/local/bin
+  773  ls
+  774  pwd -{
+  775  pwd -P
+  776  test = "lol"
+  777  vim ~/.bashrc
+  778  qs
+  779  ls -l
+  780  which R
+  781  module avail R
+  782  ls
+  783  cd hurwitz/mattmiller899/girus_work/deep_learning/
+  784  vim err/1749655.head1.cm.cluster.ER 
+  785  vim keras_premade_hdf.py 
+  786  vim ../../GirusApp/pipeline.py 
+  787  cd ../../GirusApp/
+  788  ls
+  789  rm keras_gpu.img 
+  790  cd hurwitz/mattmiller899/
+  791  cd girus_work/COMPILED_FEATURES_test/girus/3000/2/feature_dir/
+  792  ls
+  793  pwd -P
+  794  cd hurwitz/mattmiller899/GirusApp/
+  795  vim pipeline.py 
+  796  ls /rsgrps/bhurwitz/hurwitzlab/data/reference/uproc/pfam27ready
+  797  ls /rsgrps/bhurwitz/hurwitzlab/data/reference/uproc/model
+  798  vim pipeline.py 
+  799  ls /rsgrps/bhurwitz/hurwitzlab/data/reference/uproc/pfam27ready
+  800  vim pipeline.py 
+  801  cd ../girus_work/deep_learning/
+  802  vim err/1750376.head1.cm.cluster.ER 
+  803  vim out/1750376.head1.cm.cluster.OU 
+  804  vim out/1750362.head1.cm.cluster.OU 
+  805  vim err/1750362.head1.cm.cluster.ER 
+  806  vim err/1749654.head1.cm.cluster.ER 
+  807  vim err/1750363.head1.cm.cluster.ER 
+  808  vim err/1750376.head1.cm.cluster.ER 
+  809  cd ../../GirusApp/
+  810  rm keras_gpu.img 
+  811  rm keras.def 
+  812  rm keras_old.img 
+  813  vim submit_pipeline.sh 
+  814  sh submit_pipeline.sh 
+  815  cp ./keras_gpu.img ../girus_work/deep_learning/keras_gpu_new.img
+  816  ls -l ../girus_work/deep_learning/keras_gpu_new.img
+  817  qs
+  818  cd ../girus_work/deep_learning/
+  819  sh submit_keras_premade_hdf.sh 
+  820  cd ../../GirusApp/
+  821  vim DataGenerator.py 
+  822  qs
+  823  qstat
+  824  w
+  825  qs
+  826  qstat
+  827  qs
+  828  vim err/1750612.head1.cm.cluster.ER 
+  829  vim pipeline.py 
+  830  sh submit_pipeline.sh 
+  831  qs
+  832  qstat
+  833  vim ../girus_work/deep_learning/keras_premade_hdf.py 
+  834  vim pipeline.py 
+  835  vim ../girus_work/deep_learning/keras_premade_hdf.py 
+  836  vim pipeline.py 
+  837  qs
+  838  vim err/1750620.head1.cm.cluster.ER 
+  839  cd ../girus_work/deep_learning/
+  840  vim err/1750616.head1.cm.cluster.ER 
+  841  ls -l keras_output/premade/unsplit/v_3000_2_0_mpi_log_new 
+  842  vim keras_output/premade/unsplit/v_3000_2_0_mpi_log_new 
+  843  vim keras_output/premade/unsplit/v_3000_2_0_mpi_log
+  844  cd ../../GirusApp/
+  845  qs
+  846  vim err/1750620.head1.cm.cluster.ER 
+  847  vim submit_pipeline.sh 
+  848  ls /rsgrps/bhurwitz/
+  849  ls /rsgrps/bhurwitz/hurwitzlab/data/reference/
+  850  vim submit_pipeline.sh 
+  851  sh submit_pipeline.sh 
+  852  vim run_pipeline.sh 
+  853  sh submit_pipeline.sh 
+  854  qs
+  855  qdelall
+  856  qs
+  857  sh submit_pipeline.sh 
+  858  qs
+  859  git add keras.def
+  860  git commit -m 'added recipe'
+  861  qs
+  862  ls
+  863  qs
+  864  qstat
+  865  qs
+  866  ls ../girus_work/COMPILED_FEATURES_test/girus/3000/2/
+  867  ls ../girus_work/COMPILED_FEATURES_test/girus/3000/2/feature_dir/
+  868  ls ../girus_work/COMPILED_FEATURES_test/girus/3000/2/uproc_dir/
+  869  qs
+  870  vim ../girus_work/COMPILED_FEATURES_test/girus/3000/2/uproc_dir/log 
+  871  qs
+  872  ls ../girus_work/COMPILED_FEATURES_test/girus/3000/2/uproc_dir/
+  873  ls -l ../girus_work/COMPILED_FEATURES_test/girus/3000/2/uproc_dir/
+  874  ls -l ../girus_work/COMPILED_FEATURES_test/girus/3000/2/feature_dir/
+  875  ls -l ../girus_work/COMPILED_FEATURES_test/girus/3000/2/prediction_dir/
+  876  qs
+  877  vim err/1750629.head1.cm.cluster.ER 
+  878  vim pipeline.py 
+  879  sh submit_pipeline.sh 
+  880  vim err/1750634.head1.cm.cluster.ER 
+  881  vim pipeline.py 
+  882  sh submit_pipeline.sh 
+  883  vim ../girus_work/COMPILED_FEATURES_test/girus/3000/2/log 
+  884  qs
+  885  vim err/1750675.head1.cm.cluster.ER 
+  886  vim pipeline.py 
+  887  sh submit_pipeline.sh 
+  888  qs
+  889  vim ../girus_work/COMPILED_FEATURES_test/girus/3000/2/log 
+  890  ls -l ../girus_work/COMPILED_FEATURES_test/girus/3000/2/log 
+  891  qs
+  892  ls -l ../girus_work/COMPILED_FEATURES_test/girus/3000/2/log 
+  893  qs
+  894  ls -l ../girus_work/COMPILED_FEATURES_test/girus/3000/2/log 
+  895  vim ../girus_work/COMPILED_FEATURES_test/girus/3000/2/log 
+  896  qs
+  897  vim err/1750676.head1.cm.cluster.ER 
+  898  vim pipeline.py 
+  899  vim err/1750676.head1.cm.cluster.ER 
+  900  vim pipeline.py 
+  901  vim ../girus_work/COMPILED_FEATURES_test/girus/3000/2/log 
+  902  rm ../girus_work/COMPILED_FEATURES_test/girus/3000/2/log 
+  903  sh submit_pipeline.sh 
+  904  qs
+  905  vim err/1750678.head1.cm.cluster.ER 
+  906  rm ../girus_work/COMPILED_FEATURES_test/girus/3000/2/log 
+  907  vim pipeline.py 
+  908  sh submit_pipeline.sh 
+  909  qs
+  910  vim err/1750680.head1.cm.cluster.ER 
+  911  vim pipeline.py 
+  912  sh submit_pipeline.sh 
+  913  qs
+  914  vim pipeline.py 
+  915  qs
+  916  ls ../girus_work/COMPILED_FEATURES_test/girus/3000/2/prediction_dir/
+  917  ls ../girus_work/COMPILED_FEATURES_test/girus/3000/2/feature_dir/
+  918  qs
+  919  ls -l ../girus_work/COMPILED_FEATURES_test/girus/3000/2/feature_dir/
+  920  ls -l ../girus_work/COMPILED_FEATURES_test/girus/3000/2/uproc_dir/
+  921  ls -l ../girus_work/COMPILED_FEATURES_test/girus/3000/2/prediction_dir/
+  922  qs
+  923  vim err/1750681.head1.cm.cluster.ER 
+  924  vim pipeline.py 
+  925  sh submit_pipeline.sh 
+  926  qs
+  927  vim err/1750683.head1.cm.cluster.ER 
+  928  vim pipeline.py 
+  929  sh submit_pipeline.sh 
+  930  qs
+  931  vim err/1750689.head1.cm.cluster.ER 
+  932  vim ../girus_work/COMPILED_FEATURES_test/girus/3000/2/log 
+  933  vim err/1750689.head1.cm.cluster.ER 
+  934  vim pipeline.py 
+  935  vim ../girus_work/COMPILED_FEATURES_test/girus/3000/2/log 
+  936  vim pipeline.py 
+  937  sh submit_pipeline.sh 
+  938  qs
+  939  vim err/1750693.head1.cm.cluster.ER 
+  940  vim ../girus_work/COMPILED_FEATURES_test/girus/3000/2/log 
+  941  vim pipeline.py 
+  942  sh submit_pipeline.sh 
+  943  qs
+  944  qstat
+  945  qs
+  946  vim err/1750696.head1.cm.cluster.ER 
+  947  vim ../girus_work/COMPILED_FEATURES_test/girus/3000/2/log 
+  948  rm ../girus_work/COMPILED_FEATURES_test/girus/3000/2/log 
+  949  sh submit_pipeline.sh 
+  950  qs
+  951  vim ../girus_work/COMPILED_FEATURES_test/girus/3000/2/log 
+  952  vim err/1750699.head1.cm.cluster.ER 
+  953  vim pipeline.py 
+  954  sh submit_pipeline.sh 
+  955  qs
+  956  vim ../girus_work/COMPILED_FEATURES_test/girus/3000/2/log 
+  957  qs
+  958  vim err/1750701.head1.cm.cluster.ER 
+  959  vim ../girus_work/COMPILED_FEATURES_test/girus/3000/2/log 
+  960  vim err/1750701.head1.cm.cluster.ER 
+  961  vim ../girus_work/COMPILED_FEATURES_test/girus/3000/2/log 
+  962  vim ../girus_work/COMPILED_FEATURES_test/girus/3000/2/prediction_dir/
+  963  vim ../girus_work/COMPILED_FEATURES_test/girus/3000/2/log 
+  964  vim pipeline.py 
+  965  vim ../girus_work/COMPILED_FEATURES_test/girus/3000/2/log 
+  966  vim pipeline.py 
+  967  singularity run keras_gpu.img 
+  968  module load singularity/2
+  969  singularity run keras_gpu.img 
+  970  vim pipeline.py 
+  971  sh submit_pipeline.sh 
+  972  qs
+  973  ls ../girus_work/COMPILED_FEATURES_test/girus/3000/2/prediction_dir/
+  974  qs
+  975  ls ../girus_work/COMPILED_FEATURES_test/girus/3000/2/prediction_dir/
+  976  qs
+  977  vim pipeline.py 
+  978  qs
+  979  ls ../girus_work/COMPILED_FEATURES_test/girus/3000/2/prediction_dir/
+  980  ls ../girus_work/COMPILED_FEATURES_test/girus/3000/2/feature_dir/
+  981  ls -l ../girus_work/COMPILED_FEATURES_test/girus/3000/2/feature_dir/
+  982  qs
+  983  vim err/1750711.head1.cm.cluster.ER 
+  984  ls -l ../girus_work/COMPILED_FEATURES_test/girus/3000/2/log 
+  985  vim ../girus_work/COMPILED_FEATURES_test/girus/3000/2/log 
+  986  vim pipeline.py 
+  987  sh submit_pipeline.sh 
+  988  qs
+  989  qstat
+  990  qs
+  991  vim err/1750714.head1.cm.cluster.ER 
+  992  vim ../girus_work/COMPILED_FEATURES_test/girus/3000/2/log 
+  993  vim pipeline.py 
+  994  vim ../girus_work/COMPILED_FEATURES_test/girus/3000/2/log 
+  995  vim pipeline.py 
+  996  sh submit_pipeline.sh 
+  997  qs
+  998  vim err/1750716.head1.cm.cluster.ER 
+  999  vim ../girus_work/COMPILED_FEATURES_test/girus/3000/2/log 
+ 1000  singularity run keras_gpu.img 
+ 1001  cd hurwitz/mattmiller899/GirusApp/
+ 1002  vim pipeline.py 
+ 1003  module load singularity/2
+ 1004  singularity run keras_gpu.img 
+ 1005  vim pipeline.py 
+ 1006  singularity run keras_gpu.img 
+ 1007  vim pipeline.py 
+ 1008  sh submit_pipeline.sh 
+ 1009  qs
+ 1010  qstat
+ 1011  qs
+ 1012  vim err/1751256.head1.cm.cluster.ER 
+ 1013  vim /rsgrps/bhurwitz/mattmiller899/girus_work/COMPILED_FEATURES_test/girus/3000/2/feature_dir/LT839607.1_Faustovirus_ST1_genome_assembly_complete_genome:_monopartite.csv
+ 1014  vim err/1751256.head1.cm.cluster.ER 
+ 1015  vim pipeline.py 
+ 1016  vim err/1751256.head1.cm.cluster.ER 
+ 1017  vim pipeline.py 
+ 1018  sh submit_pipeline.sh 
+ 1019  qs
+ 1020  vim err/1751258.head1.cm.cluster.ER 
+ 1021  vim ../girus_work/COMPILED_FEATURES_test/girus/3000/2/log 
+ 1022  vim  err/1751258.head1.cm.cluster.ER 
+ 1023  vim pipeline.py 
+ 1024  vim ../girus_work/COMPILED_FEATURES_test/girus/3000/2/log 
+ 1025  singularity run keras_gpu.img 
+ 1026  vim err/1751258.head1.cm.cluster.ER 
+ 1027  vim pipeline.py 
+ 1028  sh submit_pipeline.sh 
+ 1029  qs
+ 1030  vim err/1751262.head1.cm.cluster.ER 
+ 1031  vim ../girus_work/COMPILED_FEATURES_test/girus/3000/2/log 
+ 1032  vim err/1751262.head1.cm.cluster.ER 
+ 1033  vim ../girus_work/COMPILED_FEATURES_test/girus/3000/2/log 
+ 1034  vim pipeline.py 
+ 1035  sh submit_pipeline.sh 
+ 1036  qs
+ 1037  vim err/1751264.head1.cm.cluster.ER 
+ 1038  vim ../girus_work/COMPILED_FEATURES_test/girus/3000/2/log 
+ 1039  vim pipeline.py 
+ 1040  vim ../girus_work/COMPILED_FEATURES_test/girus/3000/2/prediction_dir/LT839607.1_Faustovirus_ST1_genome_assembly_complete_genome\:_monopartite.txt 
+ 1041  wc -l ../girus_work/COMPILED_FEATURES_test/girus/3000/2/prediction_dir/LT839607.1_Faustovirus_ST1_genome_assembly_complete_genome\:_monopartite.txt 
+ 1042  vim ../girus_work/COMPILED_FEATURES_test/girus/3000/2/prediction_dir/LT839607.1_Faustovirus_ST1_genome_assembly_complete_genome\:_monopartite.txt 
+ 1043  sh submit_pipeline.sh 
+ 1044  qs
+ 1045  ls ../girus_work/COMPILED_FEATURES_test/girus/3000/2/prediction_dir/
+ 1046  ls
+ 1047  vim submit_pipeline.sh 
+ 1048  qs
+ 1049  ls ../girus_work/COMPILED_FEATURES_test/girus/3000/2/prediction_dir/
+ 1050  ls ../girus_work/COMPILED_FEATURES_test/girus/3000/2/prediction_dir/ | wc -l
+ 1051  qs
+ 1052  ls ../girus_work/COMPILED_FEATURES_test/girus/3000/2/prediction_dir/ | wc -l
+ 1053  qs
+ 1054  ls ../girus_work/COMPILED_FEATURES_test/girus/3000/2/prediction_dir/ | wc -l
+ 1055  du -h ../databases/girus/
+ 1056  qs
+ 1057  ls ../girus_work/COMPILED_FEATURES_test/girus/3000/2/prediction_dir/ | wc -l
+ 1058  ls ../databases/girus/
+ 1059  ls
+ 1060  du -h ../data/gapminder/
+ 1061  cd ..
+ 1062  rm -rf data/
+ 1063  ls
+ 1064  cd databases/girus/
+ 1065  ls
+ 1066  ls -r
+ 1067  ls */*
+ 1068  ls */* | wc -l
+ 1069  ls
+ 1070  ls pandora/
+ 1071  ls
+ 1072  man ls
+ 1073  ls -R
+ 1074  ls -R | grep tupan
+ 1075  ls -R | grep "tupan"
+ 1076* ls -R
+ 1077  ls -R | grep "NC_026440.1"
+ 1078  ls -R | grep "MF405918.1"
+ 1079  ls -R | grep "KY523104.1"
+ 1080  ls -R | grep "MF782455.1"
+ 1081  ls -R | grep "KT599914.1"
+ 1082  qs
+ 1083  ls ../../girus_work/COMPILED_FEATURES_test/girus/3000/2/prediction_dir/ | wc -l
+ 1084  source activate pyenv
+ 1085  pip install selenium
+ 1086  python
+ 1087  man wget
+ 1088  wget https://chromedriver.storage.googleapis.com/2.45/chromedriver_linux64.zip -O ./test.txt
+ 1089  rm test.txt 
+ 1090  wget https://chromedriver.storage.googleapis.com/2.45/chromedriver_linux64.zip
+ 1091  gunzip chromedriver_linux64.zip 
+ 1092  man zip
+ 1093  tar -xf chromedriver_linux64.zip 
+ 1094  zip chromedriver_linux64.zip 
+ 1095  zip -u chromedriver_linux64.zip 
+ 1096  ls
+ 1097  wget https://chromedriver.storage.googleapis.com/2.45/chromedriver_linux64.zip
+ 1098  man unzip
+ 1099  unzip chromedriver_linux64.zip
+ 1100  ls
+ 1101  mc chromedriver ~/local/bin
+ 1102  mv chromedriver ~/local/bin
+ 1103  man mc
+ 1104  ls
+ 1105  rm chromedriver_linux64.zip*
+ 1106  ls
+ 1107  chromedriver
+ 1108  rm ~/local/bin/chromedriver 
+ 1109  pip install BeautifulSoup
+ 1110  pip install BeautifulSoup4
+ 1111  pip instal urllib2
+ 1112  pip install urllib2
+ 1113  python
+ 1114  cd ../../girus_work/
+ 1115  cd ../databases/girus/
+ 1116  ls
+ 1117  vim scrape_girus_list.py
+ 1118  python scrape_girus_list.py
+ 1119  vim scrape_girus_list.py
+ 1120  python scrape_girus_list.py
+ 1121  vim scrape_girus_list.py
+ 1122  python scrape_girus_list.py
+ 1123  vim scrape_girus_list.py
+ 1124  python scrape_girus_list.py
+ 1125  vim scrape_girus_list.py
+ 1126  python scrape_girus_list.py
+ 1127  python scrape_girus_list.py | head
+ 1128  python scrape_girus_list.py > tmp.txt
+ 1129  vim tmp.txt 
+ 1130  python scrape_girus_list.py > tmp.txt
+ 1131  vim tmp.txt 
+ 1132  python scrape_girus_list.py > tmp.txt
+ 1133  vim scrape_girus_list.py
+ 1134  python scrape_girus_list.py > tmp.txt
+ 1135  vim tmp.txt 
+ 1136  vim scrape_girus_list.py
+ 1137  vim tmp.txt 
+ 1138  python scrape_girus_list.py > tmp.txt
+ 1139  vim tmp.txt 
+ 1140  vim scrape_girus_list.py
+ 1141  python scrape_girus_list.py > tmp.txt
+ 1142  vim tmp.txt 
+ 1143  vim scrape_girus_list.py
+ 1144  python scrape_girus_list.py > tmp.txt
+ 1145  vim tmp.txt 
+ 1146  vim scrape_girus_list.py
+ 1147  python scrape_girus_list.py > tmp.txt
+ 1148  vim scrape_girus_list.py
+ 1149  python scrape_girus_list.py > tmp.txt
+ 1150  vim tmp.txt 
+ 1151  vim scrape_girus_list.py
+ 1152  python scrape_girus_list.py > tmp.txt
+ 1153  vim tmp.txt 
+ 1154  vim scrape_girus_list.py
+ 1155  vim tmp.txt 
+ 1156  vim scrape_girus_list.py
+ 1157  vim tmp.txt 
+ 1158  vim scrape_girus_list.py
+ 1159  python scrape_girus_list.py
+ 1160  vim scrape_girus_list.py
+ 1161  python scrape_girus_list.py
+ 1162  vim scrape_girus_list.py
+ 1163  python scrape_girus_list.py
+ 1164  vim girus_list_pit.txt 
+ 1165  vim scrape_girus_list.py
+ 1166  vim girus_list_pit.txt 
+ 1167  python scrape_girus_list.py
+ 1168  vim girus_list_pit.txt 
+ 1169  vim scrape_girus_list.py
+ 1170  python scrape_girus_list.py
+ 1171  vim scrape_girus_list.py
+ 1172  python scrape_girus_list.py
+ 1173  vim scrape_girus_list.py
+ 1174  python scrape_girus_list.py
+ 1175  vim scrape_girus_list.py
+ 1176  ls
+ 1177  vim scrape_girus_list.py
+ 1178  python scrape_girus_list.py
+ 1179  vim scrape_girus_list.py
+ 1180  python scrape_girus_list.py
+ 1181  vim scrape_girus_list.py
+ 1182  python scrape_girus_list.py
+ 1183  vim scrape_girus_list.py
+ 1184  python scrape_girus_list.py
+ 1185  vim scrape_girus_list.py
+ 1186  python scrape_girus_list.py
+ 1187  vim scrape_girus_list.py
+ 1188  python scrape_girus_list.py
+ 1189  vim scrape_girus_list.py
+ 1190  python scrape_girus_list.py
+ 1191  vim scrape_girus_list.py
+ 1192  ls klosneu/
+ 1193  vim scrape_girus_list.pyl
+ 1194  vim scrape_girus_list.py
+ 1195  python scrape_girus_list.py
+ 1196  vim scrape_girus_list.py
+ 1197  python scrape_girus_list.py
+ 1198  vim scrape_girus_list.py
+ 1199  python scrape_girus_list.py
+ 1200  ls
+ 1201  vim scrape_girus_list.py
+ 1202  python scrape_girus_list.py
+ 1203  python scrape_girus_list.py | wc -l
+ 1204  vim scrape_girus_list.py
+ 1205  python scrape_girus_list.py | wc -l
+ 1206  python scrape_girus_list.py
+ 1207  python scrape_girus_list.py | wc -l
+ 1208  vim scrape_girus_list.py
+ 1209  python scrape_girus_list.py | wc -l
+ 1210  python scrape_girus_list.py
+ 1211  ls -R
+ 1212  ls -R | grep "NC_016072.1"
+ 1213  ls -R | grep "MF782455.1"
+ 1214  python scrape_girus_list.py
+ 1215  vim scrape_girus_list.py
+ 1216  python scrape_girus_list.py
+ 1217  vim scrape_girus_list.py
+ 1218  python scrape_girus_list.py
+ 1219  python scrape_girus_list.py > undownloaded_girus_list.txt
+ 1220  qs
+ 1221  cd ../../BE535/biosys-analytics/assignments/01-unix/
+ 1222  mkdir files
+ 1223  cd files/
+ 1224  cp ../../../../../answers.txt 
+ 1225  cp ../../../../../answers.txt .
+ 1226  vim answers.txt 
+ 1227  cat ../README.md 
+ 1228  vim answers.txt 
+ 1229  wget https://www.constitution.org/usdeclar.txt
+ 1230  wget https://www.usconstitution.net/const.txt
+ 1231  cat ../README.md 
+ 1232  wget https://www.gutenberg.org/files/25344/25344-0.txt -O scarlet.txt
+ 1233  ls
+ 1234  vim answers.txt 
+ 1235  ls
+ 1236  wc -l foo
+ 1237  head -15 -q * > foo
+ 1238  wc -l foo
+ 1239  rm foo
+ 1240  history > cmds
