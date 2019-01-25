@@ -60,9 +60,6 @@ f66a8165c621d48bac2216b2f31e8742  const.txt
 4958553be1483e4cbd615ce5fa73f6ab  scarlet.txt
 7f54939b30ae7b6d45d473a4c82a41b0  usdeclar.txt
 
-$ grep -o '\b[csCS]\w*' const.txt | wc -l
-1168
-
 $ df -k
 Filesystem               1K-blocks          Used    Available Use% Mounted on
 /dev/sda2                944785812      41857288    854929448   5% /
@@ -93,18 +90,6 @@ $ grep -l human *
 scarlet.txt
 usdeclar.txt
 
-$ grep -E '^Article [0123456789]+' *
-const.txt:Article 1.
-const.txt:Article 2.
-const.txt:Article 3.
-const.txt:Article 4.
-const.txt:Article 5.
-const.txt:Article 6.
-const.txt:Article 7.
-
-$ grep -E '^$' const.txt | wc -l
-169
-
 $ grep -o '[sS]carlet' scarlet.txt | wc -l
 113
 
@@ -117,4 +102,29 @@ I have 60 since answers.txt is in the file. Because I used -q I got exactly 15 l
 
 $ rm foo
 
+$ grep -o '\b[csCS]\w*' * | wc -l
+12235
 
+$ grep -E '^Article [0123456789]+' *
+const.txt:Article 1.
+const.txt:Article 2.
+const.txt:Article 3.
+const.txt:Article 4.
+const.txt:Article 5.
+const.txt:Article 6.
+const.txt:Article 7.
+
+$ grep -E '^$' const.txt | wc -l
+169
+
+$ grep -o '^[AEIOUaeiou]' scarlet.txt | sort | uniq -c
+    633 a
+     59 A
+    199 e
+     10 E
+    348 i
+     88 I
+    358 o
+     20 O
+     80 u
+      6 U
