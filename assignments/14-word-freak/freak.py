@@ -83,13 +83,15 @@ def main():
     if sort_type == 'frequency':
         sorted_words = sorted([(count, word) for word, count in found_words.items() if count >= min_count and word is not ''])
         for (count, word) in sorted_words:
-            print('{:20} {}'.format(word, count))
+            #print('{:20} {}'.format(word, count))
+            print(f'{word:20} {count}')
             #print('{:20} {}'.format(count, word))
 
     else:
         sorted_words = sorted([(word, count) for word, count in found_words.items() if count >= min_count and word is not ''])
         for (word, count) in sorted_words:
-            print('{:20} {}'.format(word, count))
+            print(f'{word:20} {count}')
+            #print('{:20} {}'.format(word, count))
             #print('{} {:20}'.format(word, count))
 
 
