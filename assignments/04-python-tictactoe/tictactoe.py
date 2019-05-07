@@ -75,6 +75,7 @@ def main():
     if cell_arg != None and (cell_arg < 1 or cell_arg > 9):
         print("Invalid cell \"{}\", must be 1-9".format(cell_arg))
         sys.exit(1)
+    #XOR operation
     player_bool = bool(player_arg == "")
     cell_bool = bool(cell_arg == None)
     if player_bool != cell_bool:
@@ -95,6 +96,7 @@ def main():
         else:
             print("Cell {} already taken".format(cell_arg))
             sys.exit()
+    #Print the board
     print("-------------")
     for i in range(1, 10):
         print("| {} ".format(state_arr[i - 1]),end="")

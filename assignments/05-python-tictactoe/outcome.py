@@ -45,7 +45,6 @@ def main():
             print("{} has won".format(state_arr[winner_state[0]]))
             exit()
     print("No winner")
-    exit()
             
 
 # --------------------------------------------------

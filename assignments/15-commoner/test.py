@@ -89,7 +89,7 @@ def test_runs_ok():
                     if min_len else '', hamm_flag + str(hamm)
                     if hamm else '', log_flag + log if debug else '', f1, f2)
             cmd = ' '.join(filter(lambda s: [] if not s else [s], args))
-
+            print(f"cmd = {cmd}")
             try:
                 rv, out = getstatusoutput(cmd)
                 assert rv == 0
